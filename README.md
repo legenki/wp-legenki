@@ -2,7 +2,7 @@
 
 Legenki is the perfect theme for your WooCommerce project designed around speed and conversions.
 
-![LegenkiTheme](https://raw.githubusercontent.com/legenki/wp-legenki/screenshot.png)
+![LegenkiTheme](https://raw.githubusercontent.com/legenki/wp-legenki/master/screenshot.png)
 
 Version: 1.1.0
 License: GPLv2 or later
