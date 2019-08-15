@@ -1,0 +1,1605 @@
+# Copyright (C) 2018 Legenki
+# This file is distributed under the same license as the Legenki package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Legenki\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Legenki Team <support@commercegurus.com>\n"
+"Last-Translator: Colm Troy <colm@commercegurus.com>\n"
+"Report-Msgid-Bugs-To: http://www.commercegurus.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid "That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "Try searching, or check out the popular items below."
+msgstr ""
+
+#: 404.php:28
+msgid "Popular Products"
+msgstr ""
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr ""
+
+#: comments.php:29
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:37
+msgid "Comment Navigation Above"
+msgstr ""
+
+#: comments.php:38, comments.php:58
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:39, comments.php:59
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:40, comments.php:60
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:57
+msgid "Comment Navigation Below"
+msgstr ""
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: functions.php:64
+msgid "Display Posts Shortcode"
+msgstr ""
+
+#: functions.php:69
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:74
+msgid "Kirki"
+msgstr ""
+
+#: functions.php:79
+msgid "One Click Demo Import"
+msgstr ""
+
+#: functions.php:84, inc/setup/sections/usefulplugins.php:63
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: functions.php:89
+msgid "Widget CSS Classes"
+msgstr ""
+
+#: functions.php:94, inc/customizer/sections/color.php:62, inc/customizer/sections/layout.php:21, inc/customizer/sections/typography.php:113
+msgid "WooCommerce"
+msgstr ""
+
+#: functions.php:99
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: functions.php:117, inc/core/functions/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:118, inc/core/functions/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: Installing Plugin text.
+#. translators: %s: plugin name.
+#: functions.php:120, inc/core/functions/class-tgm-plugin-activation.php:337
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:121, inc/core/functions/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: This theme requires the following plugin text.
+#: functions.php:123, inc/core/functions/class-tgm-plugin-activation.php:341
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: This theme recommends the following plugin text.
+#: functions.php:125, inc/core/functions/class-tgm-plugin-activation.php:347
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Sorry, but you do not have the correct permissions text.
+#: functions.php:127
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: The following required plugin is currently inactive text.
+#: functions.php:129, inc/core/functions/class-tgm-plugin-activation.php:365
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: The following recommended plugin is currently inactive text.
+#: functions.php:131, inc/core/functions/class-tgm-plugin-activation.php:371
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Sorry, but you do not have the correct permissions to activate text.
+#: functions.php:133
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: The following plugin needs to be updated to its latest version text.
+#: functions.php:135, inc/core/functions/class-tgm-plugin-activation.php:353
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Sorry, but you do not have the correct permissions text.
+#: functions.php:137
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:138, inc/core/functions/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:139
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:140, inc/core/functions/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:141, inc/core/functions/class-tgm-plugin-activation.php:394, inc/core/functions/class-tgm-plugin-activation.php:3257
+msgid "Plugin activated successfully."
+msgstr ""
+
+#. translators: All plugins installed and activated text.
+#: functions.php:143
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:156
+msgid "Legenki Demo Data"
+msgstr ""
+
+#: functions.php:187
+msgid "Success! Legenki Demo Content Imported!"
+msgstr ""
+
+#: inc/class-legenki.php:83
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/class-legenki.php:163, inc/customizer/fields/layout.php:164
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/class-legenki.php:169
+msgid "Sidebar Pages"
+msgstr ""
+
+#: inc/class-legenki.php:171
+msgid "The pages sidebar."
+msgstr ""
+
+#: inc/class-legenki.php:175
+msgid "Top Bar Left"
+msgstr ""
+
+#: inc/class-legenki.php:177
+msgid "A widget added to this region will appear at the very top of the site to the left."
+msgstr ""
+
+#: inc/class-legenki.php:183
+msgid "Top Bar Right"
+msgstr ""
+
+#: inc/class-legenki.php:185
+msgid "A widget added to this region will appear at the very top of the site to the right."
+msgstr ""
+
+#: inc/class-legenki.php:191
+msgid "Mobile Navigation"
+msgstr ""
+
+#: inc/class-legenki.php:193
+msgid "A widget added to this will appear on mobile only when the menu is activated"
+msgstr ""
+
+#: inc/class-legenki.php:199
+msgid "Mini Cart"
+msgstr ""
+
+#: inc/class-legenki.php:201
+msgid "A widget added to this will appear at the bottom of the mini cart upon hover in the header"
+msgstr ""
+
+#: inc/class-legenki.php:207
+msgid "Single Product Custom Area"
+msgstr ""
+
+#: inc/class-legenki.php:209
+msgid "A widget added to this region will appear below the \"Add to cart\" button on a product page."
+msgstr ""
+
+#: inc/class-legenki.php:213
+msgid "Cart Custom Area"
+msgstr ""
+
+#: inc/class-legenki.php:215
+msgid "A widget added to this region will appear below the \"Proceed to checkout\" button on the Cart page."
+msgstr ""
+
+#: inc/class-legenki.php:219
+msgid "Checkout Custom Area"
+msgstr ""
+
+#: inc/class-legenki.php:221
+msgid "A widget added to this region will appear below the \"Place order\" button on the Checkout page."
+msgstr ""
+
+#: inc/class-legenki.php:225
+msgid "Below Content"
+msgstr ""
+
+#: inc/class-legenki.php:227
+msgid "A widget added to this region will appear below the main content area."
+msgstr ""
+
+#: inc/class-legenki.php:231, inc/customizer/sections/color.php:70, inc/customizer/sections/layout.php:38
+msgid "Footer"
+msgstr ""
+
+#: inc/class-legenki.php:233
+msgid "A widget added to this region will appear within the footer area."
+msgstr ""
+
+#: inc/class-legenki.php:237
+msgid "Copyright"
+msgstr ""
+
+#: inc/class-legenki.php:239
+msgid "A widget added to this region will appear within the copyright area."
+msgstr ""
+
+#: inc/class-legenki.php:392
+msgid "Post Navigation"
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: inc/class-walker-nav-menu-edit-custom.php:100
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: inc/class-walker-nav-menu-edit-custom.php:104
+msgid "%s (Pending)"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:118
+msgid "sub item"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:135
+msgid "Move up"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:150
+msgid "Move down"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:156
+msgid "Edit menu item"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:156, inc/legenki-template-functions.php:350
+msgid "Edit"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:165
+msgid "URL"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:172
+msgid "Navigation Label"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:178
+msgid "Title Attribute"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:185
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:190
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:196
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:202
+msgid "Description"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:204
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:210
+msgid "Menu item Markup"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:212
+msgid "The markup will be displayed in the menu if the current theme supports it."
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:218
+msgid "Move"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:219
+msgid "Up one"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:220
+msgid "Down one"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:223
+msgid "To the top"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:229
+msgid "Original: %s"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:245
+msgid "Remove"
+msgstr ""
+
+#: inc/class-walker-nav-menu-edit-custom.php:256
+msgid "Cancel"
+msgstr ""
+
+#: inc/legenki-template-functions.php:320
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/legenki-template-functions.php:576
+msgid "Primary Navigation"
+msgstr ""
+
+#: inc/legenki-template-functions.php:646
+msgid "Skip to navigation"
+msgstr ""
+
+#: inc/legenki-template-functions.php:647
+msgid "Skip to content"
+msgstr ""
+
+#: inc/legenki-template-functions.php:745, inc/legenki-template-functions.php:818
+msgid "Pages:"
+msgstr ""
+
+#. translators: 'Continue reading' text to read the full article.
+#: inc/legenki-template-functions.php:804
+msgid "Continue reading %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: inc/legenki-template-functions.php:891, inc/legenki-template-functions.php:905
+msgid ", "
+msgstr ""
+
+#: inc/legenki-template-functions.php:897
+msgid "Posted in:"
+msgstr ""
+
+#: inc/legenki-template-functions.php:911
+msgid "Tagged:"
+msgstr ""
+
+#: inc/legenki-template-functions.php:935
+msgctxt "Next post"
+msgid "Next"
+msgstr ""
+
+#: inc/legenki-template-functions.php:936
+msgctxt "Previous post"
+msgid "Previous"
+msgstr ""
+
+#. translators: post date.
+#: inc/legenki-template-functions.php:976
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/setup/help.php:44
+msgid "Thanks for choosing Legenki! You can read hints and tips on how get the most out of your new theme in the %1$sHelp Centre%2$s."
+msgstr ""
+
+#: inc/setup/help.php:45
+msgid "Get started with Legenki"
+msgstr ""
+
+#: inc/setup/help.php:65
+msgid "legenki Help"
+msgstr ""
+
+#: inc/setup/help.php:65
+msgid "Legenki Help"
+msgstr ""
+
+#: inc/setup/help.php:78
+msgid "Legenki Help Centre"
+msgstr ""
+
+#: inc/setup/help.php:79
+msgid "Everything you need to know to get the most out of Legenki."
+msgstr ""
+
+#: inc/setup/help.php:81
+msgid "Getting Started"
+msgstr ""
+
+#: inc/setup/help.php:82, inc/setup/sections/usefulplugins.php:16
+msgid "Useful Plugins"
+msgstr ""
+
+#. translators: Adds item to the cart
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:164
+msgid "%s has been added to your cart."
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:232
+msgid "Show Filters"
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:437
+msgid "Search for:"
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:439, inc/woocommerce/legenki-woocommerce-template-functions.php:439, inc/customizer/fields/mainmenu.php:142
+msgid "Search"
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:531
+msgid "Hit enter to search or ESC to close"
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:537
+msgid "Suggested Searches"
+msgstr ""
+
+#: inc/woocommerce/legenki-woocommerce-template-functions.php:854
+msgid "Select options"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:339
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:359
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:393, inc/core/functions/class-tgm-plugin-activation.php:914, inc/core/functions/class-tgm-plugin-activation.php:2631, inc/core/functions/class-tgm-plugin-activation.php:3678
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:395, inc/core/functions/class-tgm-plugin-activation.php:3050
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:397
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:399
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/core/functions/class-tgm-plugin-activation.php:401
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:1021
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:1021, inc/core/functions/class-tgm-plugin-activation.php:1027
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:1214, inc/core/functions/class-tgm-plugin-activation.php:3046
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/core/functions/class-tgm-plugin-activation.php:2080
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2371
+msgid "Required"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2374
+msgid "Recommended"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2390
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2393
+msgid "External Source"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2396
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2413
+msgid "Not Installed"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2417
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2419
+msgid "Active"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2425
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2428
+msgid "Requires Update"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2431
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/core/functions/class-tgm-plugin-activation.php:2440
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/core/functions/class-tgm-plugin-activation.php:2486
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/functions/class-tgm-plugin-activation.php:2490
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/functions/class-tgm-plugin-activation.php:2494
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/core/functions/class-tgm-plugin-activation.php:2498
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2580
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2588
+msgid "Installed version:"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2596
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2608
+msgid "Available version:"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2631
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2645
+msgid "Plugin"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2646
+msgid "Source"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2647
+msgid "Type"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2651
+msgid "Version"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2652
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/functions/class-tgm-plugin-activation.php:2701
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/functions/class-tgm-plugin-activation.php:2706
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/core/functions/class-tgm-plugin-activation.php:2712
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2782
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2815
+msgid "Install"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2821
+msgid "Update"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2824
+msgid "Activate"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2855
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2857
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2898
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:2900
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3006
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3032
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3256
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/functions/class-tgm-plugin-activation.php:3596
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/core/functions/class-tgm-plugin-activation.php:3599
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:3601
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3605
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:3607
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3607, inc/core/functions/class-tgm-plugin-activation.php:3615
+msgid "Show Details"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3607, inc/core/functions/class-tgm-plugin-activation.php:3615
+msgid "Hide Details"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3608
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/functions/class-tgm-plugin-activation.php:3610
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3613
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/core/functions/class-tgm-plugin-activation.php:3615
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/core/functions/class-tgm-plugin-activation.php:3616
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/core/functions/class-tgm-plugin-activation.php:3618
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/customizer/fields/color.php:18
+msgid "Primary swatch color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:19
+msgid "Select the primary color of your brand."
+msgstr ""
+
+#: inc/customizer/fields/color.php:79
+msgid "General links"
+msgstr ""
+
+#: inc/customizer/fields/color.php:106
+msgid "General links hover"
+msgstr ""
+
+#: inc/customizer/fields/color.php:132
+msgid "Top bar background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:158
+msgid "Top Bar text color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:184
+msgid "Top Bar hover color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:210
+msgid "Header background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:237
+msgid "Header Style"
+msgstr ""
+
+#: inc/customizer/fields/color.php:242
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/fields/color.php:243
+msgid "Green"
+msgstr ""
+
+#: inc/customizer/fields/color.php:244
+msgid "Blue"
+msgstr ""
+
+#: inc/customizer/fields/color.php:254
+msgid "Header color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:289
+msgid "Dropdown hover color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:315
+msgid "Navigation hover animated bar color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:343
+msgid "Primary Button"
+msgstr ""
+
+#: inc/customizer/fields/color.php:353
+msgid "Primary button text color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:382
+msgid "Primary button background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:411
+msgid "Primary button background hover"
+msgstr ""
+
+#: inc/customizer/fields/color.php:441
+msgid "Sale Flash"
+msgstr ""
+
+#: inc/customizer/fields/color.php:451
+msgid "Sale flash background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:477
+msgid "Sale flash text color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:504
+msgid " Ratings"
+msgstr ""
+
+#: inc/customizer/fields/color.php:514
+msgid "Star ratings color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:541
+msgid " Product Archives"
+msgstr ""
+
+#: inc/customizer/fields/color.php:551
+msgid "Archive title and description color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:578
+msgid "Footer background"
+msgstr ""
+
+#: inc/customizer/fields/color.php:605
+msgid "Blog image hover effect color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:632
+msgid "Footer headings color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:658
+msgid "Footer text color"
+msgstr ""
+
+#: inc/customizer/fields/color.php:685
+msgid "Footer links"
+msgstr ""
+
+#: inc/customizer/fields/color.php:712
+msgid "Footer links hover"
+msgstr ""
+
+#: inc/customizer/fields/general.php:18
+msgid "Logo Height"
+msgstr ""
+
+#: inc/customizer/fields/general.php:19
+msgid "Adjust the height of your logo in pixels. You can upload your logo image within the \"Site Identity\" panel."
+msgstr ""
+
+#: inc/customizer/fields/general.php:43
+msgid "Mobile Header Height"
+msgstr ""
+
+#: inc/customizer/fields/general.php:44
+msgid "Adjust the height of your mobile header in pixels."
+msgstr ""
+
+#: inc/customizer/fields/general.php:69
+msgid "Mobile Logo Height"
+msgstr ""
+
+#: inc/customizer/fields/general.php:70
+msgid "Adjust the height of your mobile logo in pixels."
+msgstr ""
+
+#: inc/customizer/fields/general.php:97
+msgid "Minification Settings"
+msgstr ""
+
+#: inc/customizer/fields/general.php:108
+msgid "Minify Main CSS?"
+msgstr ""
+
+#: inc/customizer/fields/general.php:112
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/fields/general.php:113
+msgid "No"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:19, inc/customizer/panels/panels.php:14, inc/customizer/sections/color.php:46
+msgid "General"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:30
+msgid "Display breadcrumbs"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:45
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:56
+msgid "Display rating"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:69
+msgid "Display categories"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:82
+msgid "Flip image on hover"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:97
+msgid "Single Product"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:108
+msgid "Display sticky add to cart"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:122
+msgid "Display related"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:136
+msgid "Display product meta data"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:150
+msgid "Display prev/next items"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:170
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:171
+msgid "Off Screen"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:184
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:190
+msgid "Flow"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:191
+msgid "Grid of Two"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:192
+msgid "Grid of Three"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:193
+msgid "Mixed Grid"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:204
+msgid "Display blog categories"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:218
+msgid "Display blog post summary"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:233
+msgid "Show Below Content?"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:239, inc/customizer/fields/layout.php:270, inc/customizer/fields/layout.php:288
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:240, inc/customizer/fields/layout.php:271, inc/customizer/fields/layout.php:289
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:250
+msgid "Below Content Background Image"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:251
+msgid "Suggested size: 1800px x 320px."
+msgstr ""
+
+#: inc/customizer/fields/layout.php:264
+msgid "Show Footer?"
+msgstr ""
+
+#: inc/customizer/fields/layout.php:282
+msgid "Show Copyright?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:18
+msgid "Display top bar?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:19
+msgid "Enable or disable the top bar"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:25, inc/customizer/fields/mainmenu.php:55, inc/customizer/fields/mainmenu.php:85, inc/customizer/fields/mainmenu.php:128, inc/customizer/fields/mainmenu.php:159, inc/customizer/fields/mainmenu.php:177, inc/customizer/fields/mainmenu.php:233
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:26, inc/customizer/fields/mainmenu.php:56, inc/customizer/fields/mainmenu.php:86, inc/customizer/fields/mainmenu.php:129, inc/customizer/fields/mainmenu.php:160, inc/customizer/fields/mainmenu.php:178, inc/customizer/fields/mainmenu.php:234
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:38
+msgid "Wishlist"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:48
+msgid "Display wishlist?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:49
+msgid "Enable or disable the wishlist icon. Needs the YITH Wishlist plugin active."
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:68
+msgid "Account"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:78
+msgid "Display account?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:79
+msgid "Enable or disable the account icon"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:96
+msgid "Account URL"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:97
+msgid "Enter the full url to your account page"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:111
+msgid "Cart"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:121
+msgid "Display cart?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:122
+msgid "Enable or disable the cart icon. WooCommerce needs to be active."
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:152
+msgid "Display search?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:153
+msgid "Enable or disable the search icon"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:170
+msgid "Display search suggestions?"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:171
+msgid "Uses product tags"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:188
+msgid "Header Height"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:189
+msgid "Adjust the header height (px)"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:226
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:227
+msgid "Stick the header on scroll"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:244
+msgid "Navigation Position"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:245
+msgid "Position your main menu"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:251
+msgid "Left Align"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:252
+msgid "Center Align"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:253
+msgid "Left Align / Center Logo"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:264
+msgid "Level 1 Font settings"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:288
+msgid "Level 2 Font settings"
+msgstr ""
+
+#: inc/customizer/fields/mainmenu.php:314
+msgid "Level 3 Font settings"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:15
+msgid "Font settings"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:41, inc/customizer/fields/typography.php:75, inc/customizer/fields/typography.php:102, inc/customizer/fields/typography.php:128, inc/customizer/fields/typography.php:156, inc/customizer/fields/typography.php:184, inc/customizer/fields/typography.php:211, inc/customizer/fields/typography.php:237, inc/customizer/fields/typography.php:264
+msgid "Font Settings"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:42
+msgid "Select which font you would like to use"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:290
+msgid "Archives Blog Post Title"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:317
+msgid "Single Blog Post Title"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:344
+msgid "Archives Category Description"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:369
+msgid "Archives Product Title"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:397
+msgid "Single Product Title"
+msgstr ""
+
+#: inc/customizer/fields/typography.php:423
+msgid "Primary Buttons"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:15
+msgid "Manage general theme settings"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:21
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:22
+msgid "Manage theme colors"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:28
+msgid "Header and Navigation"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:29
+msgid "Manage the header and navigation"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:35
+msgid "Page Heading"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:36
+msgid "Manage the page heading"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:42
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:43
+msgid "Manage theme typography"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:49
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:50
+msgid "Manage theme header, footer and more"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:56, inc/customizer/sections/color.php:54, inc/customizer/sections/layout.php:13, inc/customizer/sections/typography.php:104
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/panels/panels.php:57
+msgid "Manage blog settings"
+msgstr ""
+
+#: inc/customizer/sections/color.php:14, inc/customizer/sections/mainmenu.php:14
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/sections/color.php:22, inc/customizer/sections/mainmenu.php:32
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/sections/color.php:30
+msgid "Below Header"
+msgstr ""
+
+#: inc/customizer/sections/color.php:38
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/sections/general.php:13
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/customizer/sections/general.php:21
+msgid "Speed Settings"
+msgstr ""
+
+#: inc/customizer/sections/layout.php:22
+msgid "Publish and refresh to see the changes."
+msgstr ""
+
+#: inc/customizer/sections/layout.php:30
+msgid "Sidebars"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:23
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:41
+msgid "Navigation Fonts"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:50
+msgid "Navigation Layout"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:59
+msgid "Site Tools"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:68
+msgid "Mobile Header"
+msgstr ""
+
+#: inc/customizer/sections/mainmenu.php:77
+msgid "Responsive Breakpoint"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:14
+msgid "Main Body"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:23
+msgid "Secondary Font"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:32
+msgid "Paragraphs"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:41
+msgid "Heading One"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:50
+msgid "Heading Two"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:59
+msgid "Heading Three"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:68
+msgid "Heading Four"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:77
+msgid "Heading Five"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:86
+msgid "Blockquotes"
+msgstr ""
+
+#: inc/customizer/sections/typography.php:95
+msgid "Widget Titles"
+msgstr ""
+
+#: inc/setup/sections/intro.php:18
+msgid "Welcome to Legenki"
+msgstr ""
+
+#: inc/setup/sections/intro.php:24
+msgid "Legenki Theme Documentation"
+msgstr ""
+
+#: inc/setup/sections/intro.php:25
+msgid "We provide lots of theme documentation articles including a detailed installation and setup guide on our website."
+msgstr ""
+
+#: inc/setup/sections/intro.php:26
+msgid "View Theme Documentation"
+msgstr ""
+
+#: inc/setup/sections/intro.php:30
+msgid "Theme Options"
+msgstr ""
+
+#: inc/setup/sections/intro.php:31
+msgid "The theme customizer enables you to modify many elements of the theme directly without any coding skills. This includes options such as uploading your logo, changing the primary color, and much more."
+msgstr ""
+
+#: inc/setup/sections/intro.php:33
+msgid "To access the Customizer, go to"
+msgstr ""
+
+#: inc/setup/sections/intro.php:33
+msgid "Appearance → Customize"
+msgstr ""
+
+#: inc/setup/sections/intro.php:33
+msgid "in the WordPress admin menu."
+msgstr ""
+
+#: inc/setup/sections/intro.php:34
+msgid "When you are finished making changes, click"
+msgstr ""
+
+#: inc/setup/sections/intro.php:34
+msgid "Save & Publish"
+msgstr ""
+
+#: inc/setup/sections/intro.php:34
+msgid "to save the settings. Check out your site to confirm your changes."
+msgstr ""
+
+#: inc/setup/sections/intro.php:37
+msgid "Launch the Customizer"
+msgstr ""
+
+#: inc/setup/sections/intro.php:48
+msgid "Legenki WooCommerce Theme"
+msgstr ""
+
+#: inc/setup/sections/intro.php:49
+msgid "More information about Legenki including FAQs, guides and tutorials on optimizing your WooCommerce store."
+msgstr ""
+
+#: inc/setup/sections/intro.php:51
+msgid "Legenki Information"
+msgstr ""
+
+#: inc/setup/sections/intro.php:56
+msgid "Support"
+msgstr ""
+
+#: inc/setup/sections/intro.php:57
+msgid "Have any questions or need help? Get in touch with our support desk for assistance. You will need to include your purchase code, a link to your site and a screenshot of the issue."
+msgstr ""
+
+#: inc/setup/sections/intro.php:59
+msgid "Submit a Ticket"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:17
+msgid "Enhance your store with these useful plugins for Legenki. Just search the \"Plugins\" section of WordPress for the name, then install and activate. You will need to consult the individual plugin documentation of each for setup instructions."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:27
+msgid "Autoptimize"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:28
+msgid "Optimizes your website, concatenating the CSS and JavaScript code, and compressing it."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:31, inc/setup/sections/usefulplugins.php:43, inc/setup/sections/usefulplugins.php:55, inc/setup/sections/usefulplugins.php:67, inc/setup/sections/usefulplugins.php:79, inc/setup/sections/usefulplugins.php:91, inc/setup/sections/usefulplugins.php:103, inc/setup/sections/usefulplugins.php:115
+msgid "More information"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:39
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:40
+msgid "A lightweight form plugin which allows you to capture data easily."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:51
+msgid "Jetpack"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:52
+msgid "The popular plugin from Automattic has some useful features worth enabling, including lazy load and an images CDN for quicker page loading times."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:64
+msgid "Allows visitors to subscribe to your newsletters easily. Requires a free MailChimp account."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:75
+msgid "WooCommerce Product Tabs"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:76
+msgid "Helps you add your own custom tabs to the product page in WooCommerce."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:87
+msgid "Variation Swatches for WooCommerce"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:88
+msgid "A much nicer way to display variations of variable products. This plugin will help you select a style for each attribute as a color, image or label."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:99
+msgid "YITH WooCommerce Ajax Product Filter"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:100
+msgid "Choose among color, label, list, and dropdown and the filters will display those specific products immediately on the listings page."
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:111
+msgid "YITH WooCommerce Waiting List"
+msgstr ""
+
+#: inc/setup/sections/usefulplugins.php:112
+msgid "Allow users to request an email notification when an out-of-stock product comes back into stock."
+msgstr ""
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-fullwidth-no-heading.php:5
+msgid "Full width (no heading)"
+msgstr ""
+
+#: template-fullwidth.php:5
+msgid "Full width"
+msgstr ""
+
+#: template-portfolio.php:5
+msgid "Portfolio Landing"
+msgstr ""

@@ -1,0 +1,166 @@
+
+.icon-search {
+    display: block;
+    background-image: url(../../images/leg-search.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    content: "";
+}
+.icon-user {
+    display: block;
+    background-image: url(../../images/leg-user.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    content: "";
+}
+.icon-heart {
+    display: block;
+    background-image: url(../../images/leg-heart.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    content: "";
+}
+
+.icon-shopping-cart {
+    display: block;
+    background-image: url(../../images/leg-cart.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    margin-top: 16px;
+    content: "";
+}
+.icon-down-arrow:before {
+  content: "\e900";
+}
+
+/* -- Evil Icons -- */
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.icon {
+    position: relative;
+    display: inline-block;
+    width: 22px;
+    overflow: hidden;
+    fill: currentColor
+}
+
+.icon--m {
+    width: 50px;
+    height: 50px
+}
+
+.icon--l {
+    width: 100px;
+    height: 100px
+}
+
+.icon--xl {
+    width: 150px;
+    height: 150px
+}
+
+.icon--xxl {
+    width: 200px;
+    height: 200px
+}
+
+.icon__spinner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%
+}
+
+.icon--leg-spinner .icon__spinner, .icon--leg-spinner-2 .icon__spinner {
+    -webkit-animation: spin 1s steps(12) infinite;
+    animation: spin 1s steps(12) infinite
+}
+
+.icon--leg-spinner-3 .icon__spinner {
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite
+}
+
+.icon--leg-sc-facebook {
+    fill: #1778f1
+}
+
+.icon--leg-sc-github {
+    fill: #333
+}
+
+.icon--leg-sc-google-plus {
+    fill: #dd4b39
+}
+
+.icon--leg-sc-instagram {
+    fill: #3f729b
+}
+
+.icon--leg-sc-linkedin {
+    fill: #0976b4
+}
+
+.icon--leg-sc-odnoklassniki {
+    fill: #ed812b
+}
+
+.icon--leg-sc-skype {
+    fill: #00aff0
+}
+
+.icon--leg-sc-soundcloud {
+    fill: #f80
+}
+
+.icon--leg-sc-tumblr {
+    fill: #35465c
+}
+
+.icon--leg-sc-twitter {
+    fill: #55acee
+}
+
+.icon--leg-sc-vimeo {
+    fill: #1ab7ea
+}
+
+.icon--leg-sc-vk {
+    fill: #45668e
+}
+
+.icon--leg-sc-youtube {
+    fill: #e52d27
+}
+
+.icon--leg-sc-pinterest {
+    fill: #bd081c
+}
+
+.icon--leg-sc-telegram {
+    fill: #08c
+}

@@ -1,0 +1,17 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_legenki">
+            <key name="legenki_below_content_title" />
+            <key name="legenki_mini_cart_text" />
+            <key name="legenki_below_content_text" />
+            <key name="legenki_progress_one_title" />
+            <key name="legenki_progress_one_desc" />
+            <key name="legenki_progress_two_title" />
+            <key name="legenki_progress_two_desc" />
+            <key name="legenki_progress_three_title" />
+            <key name="legenki_progress_three_desc" />
+        </key>
+    </admin-texts> 
+</wpml-config>
+
+
