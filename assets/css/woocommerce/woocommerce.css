@@ -235,7 +235,7 @@ ul.products li.product.product-category img {
 
 #reviews .commentlist li ul.children li,.single-product div.product .woocommerce-product-gallery .flex-viewport {
     margin-bottom: 1em;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 .single-product div.product .woocommerce-product-gallery .flex-control-thumbs {
@@ -301,6 +301,7 @@ ul.products li.product.product-category img {
 
 .single-product div.product form.cart .quantity {
     float: left;
+    margin-left: 44px;
 }
 
 .single-product div.product form.cart table.variations tr:last-child td.value {

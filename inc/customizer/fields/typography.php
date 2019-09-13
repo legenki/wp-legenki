@@ -80,10 +80,10 @@ legenki_Kirki::add_field(
 		'section'  => 'legenki_typography_section_headings_h1',
 		'default'  => array(
 			'font-family'    => 'Roboto',
-			'variant'        => '700',
-			'font-size'      => '52px',
+			'variant'        => '600',
+			'font-size'      => '42px',
 			'line-height'    => '1.1',
-			'letter-spacing' => '0px',
+			'letter-spacing' => '1px',
 			'color'          => '#111',
 			'text-transform' => 'none',
 		),
@@ -111,7 +111,7 @@ legenki_Kirki::add_field(
 		'section'  => 'legenki_typography_section_headings_h2',
 		'default'  => array(
 			'font-family'    => 'Roboto',
-			'variant'        => '700',
+			'variant'        => '600',
 			'font-size'      => '26px',
 			'line-height'    => '1.4',
 			'letter-spacing' => '0px',
@@ -293,7 +293,7 @@ legenki_Kirki::add_field(
 		'section'  => 'legenki_typography_section_blog',
 		'default'  => array(
 			'font-family'    => 'Roboto',
-			'variant'        => '700',
+			'variant'        => '600',
 			'font-size'      => '22px',
 			'line-height'    => '1.4',
 			'letter-spacing' => '0px',
@@ -400,8 +400,8 @@ legenki_Kirki::add_field(
 		'section'  => 'legenki_typography_section_woocommerce',
 		'default'  => array(
 			'font-family'    => 'Roboto',
-			'variant'        => '700',
-			'font-size'      => '46px',
+			'variant'        => '600',
+			'font-size'      => '42px',
 			'letter-spacing' => '0px',
 			'line-height'    => '50px',
 			'subsets'        => array( 'latin-ext' ),
