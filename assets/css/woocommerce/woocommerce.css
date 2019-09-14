@@ -301,7 +301,6 @@ ul.products li.product.product-category img {
 
 .single-product div.product form.cart .quantity {
     float: left;
-    margin-left: 44px;
 }
 
 .single-product div.product form.cart table.variations tr:last-child td.value {

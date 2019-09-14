@@ -2594,6 +2594,7 @@ figure.woocommerce-product-gallery__wrapper {
 .quantity .input-text {
 	width: 50px;
 	height: 58px;
+	margin-right: 44px;
 	padding: .5rem;
 	border: 1px solid #e2e2e2;
 	background: 0 0;
@@ -2845,7 +2846,7 @@ body.single-product h1 {
 .quantity-nav {
 	position: absolute;
 	top: 0;
-	right: -34px;
+	right: 10px;
 	bottom: 0;
 	width: 35px;
 	border: 1px solid #e2e2e2;
