@@ -206,6 +206,14 @@
 		$( 'body' ).removeClass( 'drawer-open' );
 	} );
 
+	// Change color site header
+	$(function () {
+		$(document).scroll(function () {
+			var $nav = $(".site-header");
+			$nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		});
+	});
+
 	// Smooth scroll for sticky single product - only for variable and grouped items
 	$( 'a.variable-grouped-sticky[href*="#"]' ).on( 'click', function( e ) {
 		e.preventDefault();

@@ -66,6 +66,7 @@ p + h2, p + h3, p + h4, p + h5, .entry-content p + h2 {
 .page-template-template-fullwidth-no-heading .site-content {
 	max-width: 100%;
 	padding: 0;
+	top: -70px;
 }
 
 .page.page-template-template-fullwidth:not(.woocommerce-page) .site-content {
@@ -663,12 +664,22 @@ header .row {
 
 .site-header {
 	z-index: 10;
-	transition: 0.15s all;
+	transition: 0.20s all;
+	background-color: #ffffff00 !important;
 }
 
 .site-header ul {
 	margin: 0;
 	padding: 0;
+
+}
+
+.site-header.scrolled {
+	z-index: 10;
+	transition: 0.20s all;
+	background-color: rgba(255,255,255,0.8) !important;
+	backdrop-filter: saturate(180%) blur(20px);
+	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 }
 
 /* ---- Top Bar ---- */
@@ -3045,8 +3056,9 @@ div.summary > .yith-wcwl-add-to-wishlist {
 	top: -300px;
 	right: 0;
 	left: 0;
-	border-bottom: 1px solid #eee;
-	background-color: #fff;
+	background-color: rgba(255,255,255,0.8) !important;
+	backdrop-filter: saturate(180%) blur(20px);
+	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	font-size: 16px;
 	transition: all .45s
 }
@@ -4651,13 +4663,6 @@ article.post span.handwriting {
     font-size: 18px;
 }
 
-.single-post .site-main .image-wrapper {
-	float: right;
-	width: 70%;
-	margin-right: 10%;
-	margin-bottom: 2em;
-}
-
 .single-post .entry-content {
 	float: right;
 	width: 70%;
@@ -4708,11 +4713,16 @@ article.post span.handwriting {
 }
 
 .single-post.singlepost-layout-two .site-main .image-wrapper {
-    float: none;
-    width: inherit;
-    max-width: 970px;
-    margin-right: auto;
-    margin-left: auto;
+	max-width: 100%;
+	max-height: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 0 8px 16px #22222222;
+	overflow: hidden;
+	margin-bottom: 3.5em;
+}
+.image-wrapper > img {
+	width: 100%;
 }
 
 .single-post.singlepost-layout-two .comments-area {
@@ -5282,6 +5292,15 @@ i.elementor-star-full {
 
 .entry-content .wp-block-button .wp-block-button__link {
     font-size: 16px;
+	padding: 15px 60px;
+	border-radius: 4px;
+	background-color: #2255FF;
+}
+
+.entry-content .wp-block-button .wp-block-button__link:hover {
+	background-color: #1992da;
+	box-shadow: 0 8px 16px #22222222;
+	transition: 0.20s all;
 }
 
 .entry-content .elementor-icon-box-wrapper h3 {
