@@ -324,7 +324,6 @@ removeClass( el, classList.slice( 1 ).join( ' ' ) );
 	}
 } () );
 
-
 var $j = jQuery.noConflict();
 
 $j( window ).on( 'load', function() {
