@@ -676,16 +676,17 @@ header .row {
 
 .site-header.scrolled {
 	z-index: 10;
-	transition: 0.20s all;
+	transition: 0.40s all;
 	background-color: rgba(255,255,255,0.8) !important;
 	backdrop-filter: saturate(180%) blur(20px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
+	justify-content: space-between;
 }
 
 /* ---- Top Bar ---- */
 
 .topbar-wrapper .widget-area .textwidget {
-	font-size: 14px;
+	font-size: 15px;
 }
 
 .top-bar-left,
@@ -3236,54 +3237,6 @@ input#yith-wcwtl-email {
 #yith-wcwtl-output a {
 	border-bottom: 1px solid #e2e2e2;
     color: #777;
-}
-
-/* -- Woo Notification Styling - https://wordpress.org/plugins/woo-notification/ -- */
-
-/* Hide on cart and checkout */
-body.woocommerce-cart #message-purchased,
-body.woocommerce-checkout #message-purchased {
-    display: none !important;
-}
-
-body #message-purchased #notify-close {
-    width: 10px;
-    height: 10px;
-}
-
-body #message-purchased {
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
-    font-family: inherit;
-    border-radius: 6px;
-}
-
-body #message-purchased p {
-    color: #666;
-    font-size: 13px;
-}
-
-body #message-purchased p a {
-    margin: 2px 0;
-    font-weight: 400;
-}
-
-body #message-purchased p small {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    opacity: 0.5;
-    font-size: 11px;
-}
-
-body #message-purchased img {
-    width: auto;
-    max-width: 55px;
-    max-height: 55px;
-    margin: 15px;
-}
-
-body #message-purchased #notify-close {
-    right: 10px;
-    opacity: 0.2;
 }
 
 /* -- Beeketing plugin styling -- */
