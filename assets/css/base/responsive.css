@@ -477,11 +477,11 @@
   }
 
   body h1 {
-    font-size: 46px;
+    font-size: 28px !important;
   }
 
   body h2 {
-    font-size: 22px;
+    font-size: 20px !important;
   }
 
   body th, body td {

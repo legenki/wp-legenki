@@ -35,14 +35,6 @@ p + h2, p + h3, p + h4, p + h5, .entry-content p + h2 {
 	margin-top: 1.5em;
 }
 
-.type-page .entry-content h1 {
-    margin-bottom: 0.5em;
-    margin-left: -2px;
-    font-family: inherit;
-    font-size: 42px;
-    text-transform: none;
-}
-
 .type-page .entry-content h2 {
     font-weight: 400;
 }
