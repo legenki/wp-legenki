@@ -664,21 +664,24 @@ header .row {
 
 .site-header {
 	z-index: 10;
-	transition: 0.20s all;
-	background-color: #ffffff00 !important;
+	transition: 0.30s all;
+	background-color: rgba(255,255,255,0) !important;
+	backdrop-filter: saturate(100%) blur(24px);
+	box-shadow: 0 4px 16px 0 rgba(32,34,36,0);
+	justify-content: space-between;
 }
 
 .site-header ul {
+	transition: 0.30s all;
 	margin: 0;
 	padding: 0;
-
 }
 
 .site-header.scrolled {
 	z-index: 10;
-	transition: 0.40s all;
+	transition: 0.20s all;
 	background-color: rgba(255,255,255,0.8) !important;
-	backdrop-filter: saturate(180%) blur(20px);
+	backdrop-filter: saturate(100%) blur(24px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	justify-content: space-between;
 }
