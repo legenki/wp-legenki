@@ -166,7 +166,7 @@ body {
 
 ::selection {
 	color: #111;
-	background: #ffffcc;
+	background: #e6f6fc;
 }
 
 .hidden {
@@ -185,7 +185,7 @@ path {
 	outline: none;
 	text-decoration: none;
 	transition: all .15s linear;
-	border-radius: 4px;
+	border-radius: 6px;
 }
 
 /* Screen Reader Text ------------------------ */
@@ -444,6 +444,7 @@ input[type="email"],
 input[type="password"],
 input[type="tel"] {
 	width: 100%;
+	border-radius: 6px;
 	padding: 0.75em;
 	border: 1px solid #eee;
 }
@@ -659,6 +660,7 @@ header .row {
 	transition: 0.30s all;
 	background-color: rgba(255,255,255,0) !important;
 	backdrop-filter: saturate(100%) blur(24px);
+	-webkit-backdrop-filter: saturate(100%) blur(24px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0);
 	justify-content: space-between;
 }
@@ -674,6 +676,7 @@ header .row {
 	transition: 0.20s all;
 	background-color: rgba(255,255,255,0.8) !important;
 	backdrop-filter: saturate(100%) blur(24px);
+	-webkit-backdrop-filter: saturate(100%) blur(24px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	justify-content: space-between;
 }
@@ -2199,11 +2202,11 @@ ul.products li.product img {
 }
 
 li.product img {
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 li.product:hover img {
-    transform: scale(.98);
+	border-radius: 6px;
 }
 
 /* Product image flip */
@@ -2229,6 +2232,7 @@ li.product:hover img.gallery-image {
 	overflow: hidden;
 	position: relative;
 	margin-bottom: 1em;
+	border-radius: 6px;
 }
 
 .page .entry-content .image-wrap a.button,
@@ -2537,6 +2541,7 @@ body:not(.legenki-shop-landing) .woocommerce-products-header:not(.image-exists) 
 
 li.product h2.woocommerce-loop-product_title {
 	width: calc(100% - 30px);
+	font-size: 15px !important;
 }
 
 li.product .yith-wcwl-add-to-wishlist {
@@ -3054,6 +3059,7 @@ div.summary > .yith-wcwl-add-to-wishlist {
 	left: 0;
 	background-color: rgba(255,255,255,0.8) !important;
 	backdrop-filter: saturate(180%) blur(20px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	font-size: 16px;
 	transition: all .45s
@@ -4661,13 +4667,20 @@ article.post span.handwriting {
 }
 
 .single-post.singlepost-layout-two .site-main .image-wrapper {
-	max-width: 100%;
-	max-height: 600px;
-	margin-right: auto;
-	margin-left: auto;
-	box-shadow: 0 8px 16px #22222222;
-	overflow: hidden;
-	margin-bottom: 3.5em;
+	width: 100%;
+    max-height: 480px;
+    margin-right: 0;
+    margin-left: -10px;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+    top: 0px;
+    opacity: 0.1;
+	filter: saturate(500%) blur(42px);
+	-webkit-filter: saturate(500%) blur(42px);
+}
+.image-wrapper img {
+    width: 100%;
 }
 .image-wrapper > img {
 	width: 100%;
@@ -5910,7 +5923,6 @@ a.portfolio-item:hover .portfolio-description {
 	display: block;
 	position: relative;
 	min-height: 500px;
-	background-color: #fff;
 }
 
 .legenki-portfolio-pagination {

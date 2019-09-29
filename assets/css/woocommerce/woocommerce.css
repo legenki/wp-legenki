@@ -209,8 +209,8 @@ ul.products li.product.product-category img {
     display: block;
     position: absolute;
     z-index: 1;
-    top: .875em;
-    right: .875em;
+    top: 14px;
+    right: 24px;
     width: 2em;
     height: 2em;
     background: #fff;
@@ -235,7 +235,7 @@ ul.products li.product.product-category img {
 
 #reviews .commentlist li ul.children li,.single-product div.product .woocommerce-product-gallery .flex-viewport {
     margin-bottom: 1em;
-    border-radius: 4px;
+    border-radius: 6px;
 }
 
 .single-product div.product .woocommerce-product-gallery .flex-control-thumbs {
