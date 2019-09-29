@@ -36,7 +36,7 @@ p + h2, p + h3, p + h4, p + h5, .entry-content p + h2 {
 }
 
 .type-page .entry-content h2 {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .type-page .entry-content h5 {
@@ -4534,7 +4534,7 @@ article.post span.handwriting {
 }
 
 .single-post .entry-header span {
-	color: #aaa;
+	color: #2255FF;
 	font-size: 15px;
 }
 
@@ -5535,8 +5535,8 @@ body .elementor-widget:not(:last-child) {
 	padding-right: 2%;
 	border: none;
 	color: #222;
-	font-size: 22px;
-	font-weight: 600;
+	font-size: 20px;
+	font-weight: 500;
 	line-height: 1.4em;
 }
 
