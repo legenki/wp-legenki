@@ -640,8 +640,9 @@ ul#shipping_method {
 
 .product_list_widget li img {
     float: left;
-    max-width: 75px;
-    margin-right: 15px;
+    max-width: 92px;
+    margin-right: 16px;
+    border-radius: 6px;
 }
 
 .widget_products a,.widget_shopping_cart .buttons .button {
@@ -1088,6 +1089,26 @@ form.checkout>.blockUI {
 
 #payment .place-order .button {
     width: 100%;
+}
+
+a.button.cancel {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+.woocommerce > p {
+    text-align: center;
+}
+
+input#submit_unitpay_form {
+    text-align: center;
+    padding: 20px 80px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .woocommerce-password-strength {

@@ -113,7 +113,7 @@ if ( ! function_exists( 'legenki_get_option_defaults' ) ) {
 			'legenki_footer_bg'                       => '#FFF',
 			'legenki_footer_heading_color'            => '#111',
 			'legenki_footer_color'                    => '#222',
-			'legenki_footer_links_color'              => '#1992da',
+			'legenki_footer_links_color'              => '#2255FF',
 			'legenki_footer_links_hover_color'        => '#111',
 
 			// Speed Settings.

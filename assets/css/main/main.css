@@ -460,7 +460,7 @@ input[type="email"]:focus {
 input[type="submit"] {
 	padding: 13px 30px;
     border: none;
-	border-radius: 4px;
+	border-radius: 6px;
     outline: 0;
     color: #fff;
 	background: #2255FF;
@@ -854,7 +854,7 @@ header .row {
     margin-top: 2px;
     margin-left: 8px;
 	padding: 0px 4px 0px 4px;
-    border-radius: 2px;
+    border-radius: 6px;
     color: #fff;
 	background-color: #fccf33;
 	font-size: 8px;
@@ -1554,9 +1554,8 @@ button.menu-toggle {
 
 .widget-area .textwidget a,
 .widget-area .woocommerce.widget_product_categories a {
-	border-bottom: 1px solid transparent;
-	color: #666;
-	font-weight: 400;
+	color: #2255FF;
+	font-weight: 500;
 }
 
 .widget-area select {
@@ -1565,8 +1564,7 @@ button.menu-toggle {
 
 .widget-area a:hover,
 .widget-area .woocommerce.widget_product_categories a:hover {
-	border-color: #ccc;
-	color: #111;
+	color: #1992da;
 }
 
 #secondary.widget-area a,
@@ -1576,7 +1574,7 @@ button.menu-toggle {
 }
 
 #secondary.widget-area a:hover {
-    color: #111;
+    color: #1992da;
 }
 
 .widget-area .widget.widget_recent_entries li {
@@ -1686,12 +1684,16 @@ button.menu-toggle {
 	opacity: 0.3;
 }
 
+.widget_search {
+    top: -16px;
+}
+
 .widget-area .widget {
 	position: relative;
-	margin-bottom: 2.6em;
-	padding-bottom: 2.6em;
+	margin-bottom: 24px;
+	padding-bottom: 24px;
 	border-bottom: 1px solid #eee;
-	font-size: 15px;
+	font-size: 17px;
 	line-height: 1.5em;
 }
 
@@ -1832,7 +1834,7 @@ button.menu-toggle {
 	padding: 0 10px;
 	border: 1px solid #e2e2e2;
 	font-size: 15px;
-	border-radius: 4px;
+	border-radius: 6px;
 }
 
 .widget_search input[type="search"]:focus,
@@ -2948,7 +2950,7 @@ div.summary > .yith-wcwl-add-to-wishlist {
 	height: 59px;
 	margin-left: 10px;
 	border: 1px solid #eee;
-	border-radius: 4px;
+	border-radius: 6px;
 	line-height: 59px;
 	text-align: center;
 }
@@ -5254,7 +5256,7 @@ i.elementor-star-full {
 .entry-content .wp-block-button .wp-block-button__link {
     font-size: 16px;
 	padding: 15px 60px;
-	border-radius: 4px;
+	border-radius: 6px;
 	background-color: #2255FF;
 }
 
@@ -5516,7 +5518,7 @@ body .elementor-widget:not(:last-child) {
 	position: relative;
 	z-index: 3;
 	border: none;
-    border-radius: 3px;
+    border-radius: 6px;
 }
 
 .page .entry-content ul.display-posts-listing li a.image img {
@@ -5527,17 +5529,19 @@ body .elementor-widget:not(:last-child) {
 
 .page .entry-content ul.display-posts-listing li a.image:hover img {
 	transform: scale(1.04);
+	border-radius: 6px;
 }
 
 .page .entry-content ul.display-posts-listing li a.title {
 	display: block;
-	margin-top: 20px;
+	margin-top: 12px;
+	margin-left: 4px;
 	padding-right: 2%;
 	border: none;
 	color: #222;
 	font-size: 20px;
 	font-weight: 500;
-	line-height: 1.4em;
+	line-height: 1.3em;
 }
 
 .page .entry-content ul.display-posts-listing .date {
@@ -5562,7 +5566,7 @@ body .elementor-widget:not(:last-child) {
     border: none;
     color: #fff;
     background-color: #2255FF;
-    border-radius: 3px;
+    border-radius: 6px;
     font-size: 10px;
     font-weight: 600;
     text-transform: uppercase;
@@ -5616,7 +5620,7 @@ body .elementor-slick-slider ul.slick-dots {
 }
 
 .entry-content .block-caption a img {
-    border-radius: 3px;
+    border-radius: 6px;
     transition: 0.3s all;
 }
 
@@ -6074,7 +6078,9 @@ footer ul li {
 }
 
 footer p {
-	margin-right: 13%;
+	margin-right: 12%;
+    line-height: 2.2;
+    font-weight: 500;
 }
 
 footer h3 {
