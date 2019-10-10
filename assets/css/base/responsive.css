@@ -192,7 +192,7 @@
 
   body header .site-header .navigation-wrapper ul.menu > li > a,
   body .mobile-navigation a {
-    color: #111;
+    color: #222;
   }
 
   body .dropdown-open .sub-menu-wrapper {
@@ -298,10 +298,6 @@
   }
 
   /* -- Navigation Tools -- */
-
-  body .navigation-tools ul > li {
-    margin-left: 8px;
-  }
 
   body .navigation-tools .icon {
     width: 20px;
@@ -472,10 +468,6 @@
     font-size: 15px;
   }
 
-  body .entry-content p, body .entry-content ul, body .entry-content ol {
-    font-size: 15px;
-  }
-
   body h1 {
     font-size: 28px !important;
   }
@@ -642,7 +634,7 @@
   }
 
   body.page .comments-area, body.single-post .comments-area {
-    width: 100%;
+    width: 100% !important;
   }
 
   body .comments-area ol.comment-list li.comment ol.children {
