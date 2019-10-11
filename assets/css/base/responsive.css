@@ -30,6 +30,11 @@
     align-items: center;
   }
 
+  h1:before {
+    padding: 90px 50%;
+    margin: -70px 0;
+}
+
   .sticky-header:not(.single-product):not(.filter-open) header#masthead {
     z-index: 10;
   }

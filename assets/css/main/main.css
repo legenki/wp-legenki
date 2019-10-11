@@ -31,6 +31,18 @@ h1,h2,h3,h4,h5,ul,ol,table {
 	margin-bottom: 0.7em;
 }
 
+h1:before {
+	padding: 90px 20%;
+    background-image: url(../../images/background.h1.svg);
+    background-repeat: no-repeat;
+	background-position: 0 0;
+	opacity: 0.6;
+    content: " ";
+    position: absolute;
+    margin: -70px 30%;
+    display: grid;
+}
+
 p + h2, p + h3, p + h4, p + h5, .entry-content p + h2 {
 	margin-top: 1.5em;
 }
@@ -559,13 +571,15 @@ textarea {
 h1.entry-title {
 	margin-bottom: 40px;
 	text-align: center;
+	z-index: -1;
+	position: relative;
 }
 
 .site-content {
     overflow: hidden;
 	max-width: 1170px;
 	margin: 0 auto;
-	padding: 35px 15px 0 15px;
+	padding: 42px 15px 0 15px;
 }
 
 .tax-product_cat .site-content,
@@ -2485,7 +2499,7 @@ body:not(.legenki-shop-landing) .woocommerce-products-header {
 .woocommerce-products-header h1,
 .woocommerce-products-header .term-description {
 	position: relative;
-	z-index: 2;
+	z-index: -1;
 	margin-bottom: 0;
 }
 
