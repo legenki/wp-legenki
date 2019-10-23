@@ -350,7 +350,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_color_woocommerce_heading_1',
 		'section'  => 'legenki_color_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Primary Button', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -448,7 +448,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_color_woocommerce_heading_2',
 		'section'  => 'legenki_color_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Sale Flash', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -511,7 +511,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_color_woocommerce_heading_4',
 		'section'  => 'legenki_color_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( ' Ratings', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -548,7 +548,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_color_woocommerce_heading_5',
 		'section'  => 'legenki_color_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( ' Product Archives', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)

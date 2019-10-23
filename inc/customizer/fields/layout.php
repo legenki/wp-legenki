@@ -15,7 +15,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_layout_woocommerce_sidebar_heading_1',
 		'section'  => 'legenki_layout_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'General', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -41,7 +41,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_layout_woocommerce_sidebar_heading_2',
 		'section'  => 'legenki_layout_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Shop', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -93,7 +93,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_layout_woocommerce_sidebar_heading_3',
 		'section'  => 'legenki_layout_section_woocommerce',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Single Product', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -194,7 +194,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_layout_blog_heading_1',
 		'section'  => 'legenki_layout_section_blog',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Archives', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -236,7 +236,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_layout_blog_heading_2',
 		'section'  => 'legenki_layout_section_blog',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Single Post', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -305,7 +305,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_progress_heading_1',
 		'section'  => 'legenki_layout_section_progress',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Step One', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -354,7 +354,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_progress_heading_2',
 		'section'  => 'legenki_layout_section_progress',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Step Two', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -403,7 +403,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_progress_heading_3',
 		'section'  => 'legenki_layout_section_progress',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Step Three', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)

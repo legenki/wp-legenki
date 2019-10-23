@@ -63,7 +63,7 @@
 
 table.shop_table_responsive tr td.product-name a {
     border-bottom: 1px solid transparent;
-    color: #111;
+    color: #444;
     line-height: 1.55em;
 }
 
@@ -73,7 +73,7 @@ table.shop_table_responsive tr td.product-name a:hover {
 
 table.cart td.product-subtotal {
     padding-right: 0;
-    color: #111;
+    color: #444;
     text-align: right;
 }
 
@@ -348,7 +348,7 @@ ul.products li.product.product-category img {
 }
 
 .single-product div.product form.cart table.woocommerce-grouped-product-list a {
-    color: #111;
+    color: #444;
 }
 
 .single-product div.product table.variations td,.single-product div.product table.variations th {
@@ -822,7 +822,7 @@ table.cart td.product-remove a.remove {
     top: -.6180469716em;
     right: -.6180469716em;
     border: none;
-    color: #111;
+    color: #444;
     font-size: 22px;
 }
 
@@ -932,7 +932,7 @@ form.checkout>.blockUI {
     padding: 20px 25px;
     border: none;
     color: #fff;
-    background-color: #333;
+    background-color: #444;
     font-size: 14px;
 }
 
@@ -1083,7 +1083,7 @@ form.checkout>.blockUI {
 }
 
 #payment .place-order p a {
-    color: #111;
+    color: #444;
     font-weight: 500;
 }
 
@@ -1168,7 +1168,7 @@ body.woocommerce-account .entry-content .woocommerce-MyAccount-content > table {
 
 .site-main .woocommerce-MyAccount-navigation ul li a:hover,
 .site-main .woocommerce-MyAccount-navigation ul li.is-active a {
-    color: #111;
+    color: #444;
 }
 
 ul.order_details {
@@ -1352,7 +1352,7 @@ body.woocommerce-view-order .woocommerce-columns {
 
 .entry-content p.cart-empty {
     margin-top: -20px;
-    color: #111;
+    color: #444;
     font-size: 30px;
     text-align: center;
 }
@@ -1741,7 +1741,7 @@ body .select2-dropdown {
 }
 
 body .select2-container--default .select2-selection--single .select2-selection__rendered {
-    color: #111;
+    color: #444;
     line-height: 41px;
 }
 
@@ -2263,7 +2263,7 @@ body .select2-results__option {
     }
 
     .addresses header.title a:hover {
-        color: #333;
+        color: #444;
     }
 
     .addresses header.title h3 {

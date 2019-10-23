@@ -197,7 +197,7 @@
 
   body header .site-header .navigation-wrapper ul.menu > li > a,
   body .mobile-navigation a {
-    color: #222;
+    color: #444;
   }
 
   body .dropdown-open .sub-menu-wrapper {
@@ -260,7 +260,7 @@
     width: 20px;
     height: 2px;
     opacity: 1;
-    background-color: #222;
+    background-color: #444;
     cursor: pointer;
     transition: transform .15s ease-in 0s,margin .15s ease-in .2s,opacity 0s ease-in .15s;
     transform: rotate(0deg)

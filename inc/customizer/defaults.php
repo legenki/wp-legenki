@@ -19,13 +19,13 @@ if ( ! function_exists( 'legenki_get_option_defaults' ) ) {
 			// Top Bar.
 			'legenki_layout_top_bar_display'          => 'enable',
 			'legenki_layout_top_bar_background'       => '#f6f6f6',
-			'legenki_layout_top_bar_text'             => '#222',
+			'legenki_layout_top_bar_text'             => '#444',
 			'legenki_layout_top_bar_text_hover'       => '#2255FF',
 
 			// Header.
 			'legenki_header_style'                    => 'default',
 			'legenki_header_bg_color'                 => '#fff',
-			'legenki_header_color'                    => '#222',
+			'legenki_header_color'                    => '#444',
 			'legenki_navigation_animated_hover'       => '#2255FF',
 
 			// Below Header.
@@ -82,7 +82,7 @@ if ( ! function_exists( 'legenki_get_option_defaults' ) ) {
 			// Colors.
 			'legenki_color_general_swatch'            => '#2255FF',
 
-			'legenki_color_general_links'             => '#222',
+			'legenki_color_general_links'             => '#444',
 			'legenki_color_general_links_hover'       => '#2255FF',
 
 			'legenki_navigation_dropdown_hover'       => '#2255FF',
@@ -110,10 +110,10 @@ if ( ! function_exists( 'legenki_get_option_defaults' ) ) {
 			'legenki_copyright_display'               => 'show',
 			'legenki_backtotop_display'               => 'show',
 
-			'legenki_footer_bg'                       => '#FFF',
-			'legenki_footer_heading_color'            => '#222',
-			'legenki_footer_color'                    => '#222',
-			'legenki_footer_links_color'              => '#222',
+			'legenki_footer_bg'                       => '#F6F8FA',
+			'legenki_footer_heading_color'            => '#444',
+			'legenki_footer_color'                    => '#444',
+			'legenki_footer_links_color'              => '#444',
 			'legenki_footer_links_hover_color'        => '#2255FF',
 
 			// Speed Settings.

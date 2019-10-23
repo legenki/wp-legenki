@@ -34,7 +34,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_site_tools_section_heading_1',
 		'section'  => 'legenki_site_tools_section',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Wishlist', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -64,7 +64,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_site_tools_section_heading_2',
 		'section'  => 'legenki_site_tools_section',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Account', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -107,7 +107,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_site_tools_section_heading_3',
 		'section'  => 'legenki_site_tools_section',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Cart', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -157,7 +157,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_site_tools_section_heading_4',
 		'section'  => 'legenki_site_tools_section',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Search', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
@@ -331,7 +331,7 @@ legenki_Kirki::add_field(
 			'text-transform' => 'none',
 			'text-transform' => 'none',
 			'letter-spacing' => '0px',
-			'color'          => '#000',
+			'color'          => '#444',
 		),
 		'priority' => 60,
 		'output'   => array(

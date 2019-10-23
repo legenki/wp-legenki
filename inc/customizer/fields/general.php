@@ -67,7 +67,7 @@ legenki_Kirki::add_field(
 		'type'     => 'custom',
 		'settings' => 'legenki_general_speed_heading_2',
 		'section'  => 'legenki_section_general_speed_settings',
-		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #111; text-transform: uppercase;
+		'default'  => '<div class="kirki-separator" style="margin: 10px -12px; padding: 12px 12px; color: #444; text-transform: uppercase;
 	letter-spacing: 1px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #fff; cursor: default;">' . esc_html__( 'Minification Settings', 'legenki' ) . '</div>',
 		'priority' => 10,
 	)
