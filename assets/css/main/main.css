@@ -5056,6 +5056,15 @@ form label {
 	font-size: 16px;
 }
 
+p.comment-form-cookies-consent > label {
+    display: inline;
+    padding-left: 10px;
+}
+p.comment-form-cookies-consent {
+    display: table;
+    position: relative;
+}
+
 .single-post .site-main ul.products {
 	margin-top: 1.5em;
 }
@@ -5188,7 +5197,8 @@ body:not(.elementor-editor-active).page:not(.woocommerce) .entry-content ul,
 .entry-content h3, 
 .entry-content h4, 
 .entry-content h5 {
-	margin-top: 2em;
+	margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .entry-content > h3:first-child {
