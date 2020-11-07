@@ -673,8 +673,6 @@ header .row {
 	z-index: 10;
 	transition: 0.30s all;
 	background-color: rgba(255,255,255,0) !important;
-	backdrop-filter: saturate(100%) blur(24px);
-	-webkit-backdrop-filter: saturate(100%) blur(24px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0);
 	justify-content: space-between;
 }
@@ -689,8 +687,6 @@ header .row {
 	z-index: 10;
 	transition: 0.20s all;
 	background-color: rgba(255,255,255,0.8) !important;
-	backdrop-filter: saturate(100%) blur(24px);
-	-webkit-backdrop-filter: saturate(100%) blur(24px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	justify-content: space-between;
 }
@@ -1315,8 +1311,6 @@ button.menu-toggle {
 	width: 100%;
 	height: 100%;
 	background: rgba(255,255,255,0.80);
-	backdrop-filter: saturate(180%) blur(20px);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	content: '';
 }
 
@@ -3075,8 +3069,6 @@ div.summary > .yith-wcwl-add-to-wishlist {
 	right: 0;
 	left: 0;
 	background-color: rgba(255,255,255,0.8) !important;
-	backdrop-filter: saturate(180%) blur(20px);
-	-webkit-backdrop-filter: saturate(180%) blur(20px);
 	box-shadow: 0 4px 16px 0 rgba(32,34,36,0.08);
 	font-size: 16px;
 	transition: all .45s
@@ -3188,22 +3180,6 @@ div.summary > .yith-wcwl-add-to-wishlist {
 
 .checkmark {
 	display: inline-block;
-}
-
-.single-post .entry-content ul:not(.wp-block-gallery):not(.products) li:before,
-.woocommerce-Tabs-panel ul li:before,
-.product-widget .textwidget ul li:before {
-	display: block;
-	position: absolute;
-	top: 9px;
-	left: 2px;
-	width: 5px;
-    width: 6px;
-	height: 6px;
-	border: 1px solid #2255FF;
-	border-radius: 50%;
-	content: '';
-	transform: rotate(45deg);
 }
 
 .single-post .entry-content ul:not(.wp-block-gallery):not(.products) li:before,
@@ -6400,4 +6376,14 @@ span.highlight-text {
 
 .center-caption:hover figcaption span {
     height: 24px;
+}
+
+#ez-toc-container {
+    background: #Fff !important;
+    border: 0 !important;
+    border-radius: 8px !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05) !important;
+    box-shadow: 0 16px 32px rgba(0,0,0,.15) !important;
+    margin-bottom: 3em !important;
+    padding: 32px !important;
 }

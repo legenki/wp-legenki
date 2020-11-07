@@ -4,7 +4,7 @@
     <title>diners</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="#444" fill-rule="evenodd" sketch:type="MSPage">
         <g id="diners" sketch:type="MSLayerGroup">
             <rect id="rectangle" fill="#0079BE" sketch:type="MSShapeGroup" x="0" y="0" width="750" height="471" rx="40"></rect>
             <path d="M584.933911,237.947339 C584.933911,138.53154 501.952976,69.8140806 411.038924,69.8471464 L332.79674,69.8471464 C240.793699,69.8140806 165.066089,138.552041 165.066089,237.947339 C165.066089,328.877778 240.793699,403.587432 332.79674,403.150963 L411.038924,403.150963 C501.952976,403.586771 584.933911,328.857939 584.933911,237.947339 L584.933911,237.947339 Z" id="Shape-path" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>

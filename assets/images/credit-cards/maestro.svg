@@ -4,7 +4,7 @@
     <title>Slice 1</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="#444" fill-rule="evenodd" sketch:type="MSPage">
         <g id="maestro" sketch:type="MSLayerGroup">
             <rect id="Rectangle-1" fill="#000000" sketch:type="MSShapeGroup" x="0" y="0" width="750" height="471" rx="40"></rect>
             <path d="M675.000003,235.50625 C675.000003,334.639584 594.650002,415.002085 495.516668,415.002085 C396.395834,415.002085 316.0375,334.639584 316.0375,235.50625 C316.0375,136.364582 396.395834,55.997915 495.516668,55.997915 C594.650002,55.997915 675.000003,136.364582 675.000003,235.50625" id="Fill-1" fill="#D9222A" sketch:type="MSShapeGroup"></path>

@@ -17,7 +17,7 @@
             <stop stop-color="#E30138" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="#444" fill-rule="evenodd" sketch:type="MSPage">
         <g id="jcb" sketch:type="MSLayerGroup">
             <rect id="Rectangle-1" fill="#0E4C96" sketch:type="MSShapeGroup" x="0" y="0" width="750" height="471" rx="40"></rect>
             <path d="M617.243183,346.766281 C617.243183,388.380887 583.514892,422.125974 541.88349,422.125974 L132.756823,422.125974 L132.756823,124.244916 C132.756823,82.6186826 166.489851,48.8744567 208.121683,48.8744567 L617.242752,48.874026 L617.242752,346.766281 L617.243183,346.766281 L617.243183,346.766281 Z" id="path3494" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
